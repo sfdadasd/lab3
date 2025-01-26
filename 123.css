@@ -72,7 +72,7 @@ section h2 {
 #bio p {
     font-size: 1.2em;
     line-height: 1.6;
-    background-color: gray;
+    background-color: yellow;
 }
 
 
@@ -80,7 +80,7 @@ section h2 {
 #skills ul li {
     font-size: 1.2em;
     margin-bottom: 10px;
-    background-color: orange
+    background-color: yellow
 }
 
 /* Projects Section */
@@ -110,7 +110,7 @@ section h2 {
 
 /* Footer Section */
 #contact {
-    background-color: green;
+    background-color: black;
     color: white;
     padding: 5px;
     text-align: center;
