@@ -1,0 +1,130 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white; /* light background color */
+    color: #333; /* dark text color */
+    margin: 1;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF; /* link color */
+}
+
+a:hover {
+    color: #0056b3; /* link hover color */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Header Styles */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#name {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#header nav ul li {
+    margin: 0 15px;
+}
+
+#header nav ul li a {
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px; /* Space between sections */
+    padding: 20px;
+    background-color: white;
+    border-radius: 60px; /* Rounded corners for the sections */
+    
+}
+
+section h2 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+/* Bio Section */
+#bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    background-color: gray;
+}
+
+
+/* Skills Section */
+#skills ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background-color: orange
+}
+
+/* Projects Section */
+#projects ul {
+    display: flex; /* This will align the <li> elements horizontally */
+    gap: 100px; /* Adds space between the list items */
+    padding: 0;
+    list-style-type: none; /* Removes default list styling */
+}
+
+#projects ul li a {
+    font-size: 3em;
+    display: block; /* Ensure the anchor is a block-level element */
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: yellow;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none; /* Remove underline from links */
+}
+
+
+#projects ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Section */
+#contact {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+/* Box model adjustments */
+section {
+    padding: 20px;
+    border: 1px solid #ddd; /* Add border around sections */
+    box-sizing: border-box; /* Ensure padding/border is included in width calculation */
+}
+.titles {
+    font-size: 2em;
+    margin-top: 0;
+}
